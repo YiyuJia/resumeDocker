@@ -41,6 +41,7 @@ dependencies:
   - olefile==0.44
   - pandas==0.20.3
   - pathlib==1.0.1
+  - pdfminer==20140328
   - pillow==4.3.0
   - plac==0.9.6
   - pocketsphinx==0.1.3

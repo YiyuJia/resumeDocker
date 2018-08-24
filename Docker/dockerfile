@@ -7,6 +7,10 @@ MAINTAINER Yiyu Jia <yiyu.jia@gmail.com>
 #  $ docker push continuumio/miniconda2:latest
 #  $ docker push continuumio/miniconda2:4.5.4
 
+LABEL vendor=BIP\ LLC \
+      com.bip.version="0.0.1-beta" \
+      com.bip.release-date="2018-08-23"
+
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
 
